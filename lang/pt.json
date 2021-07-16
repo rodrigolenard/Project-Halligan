@@ -59,14 +59,14 @@
       "infoPostFix":    "",
       "infoThousands":  ",",
       "lengthMenu":     "Mostrar _MENU_ resultados",
-      "loadingRecords": "Cargando...",
+      "loadingRecords": "Cargando resultados...",
       "processing":     "Processando...",
-      "search":         "Procurar:",
+      "search":         "Busca:",
       "zeroRecords":    "Não foram encontrados resultados que coincidam com a pesquisa",
       "paginate": {
             "first":    "Primeiro",
             "last":     "Último",
-            "next":     "Seguinte",
+            "next":     "Próximo",
             "previous": "Anterior"
           },
       "aria": {
@@ -76,8 +76,8 @@
     },
   "error": {
       "header": {
-            "403": "¡Proibído!",
-            "404": "¡Página não encontrada!",
+            "403": "Acesso negado!",
+            "404": "Página não encontrada!",
             "500": "Erro interno do servidor",
             "502": "Erro de acesso à API",
             "503": "Serviço de acesso à API não disponível",
@@ -86,7 +86,7 @@
       "body": {
             "403": "A página que estás a tentar aceder requer permissões que não tens. Se pensas que possa ser um erro por favor contacta com o desenvolvimento do BrandMeister. Clique aqui para <a href='.'>regressar a tabela</a>.",
             "404": "A página que solicitaste não existe.",
-            "500": "¡O servidor encontrou um erro inesperado, desculpa pelo incómodo!",
+            "500": "O servidor encontrou um erro inesperado, desculpa pelo incómodo!",
             "502": "A API do BrandMeister não está a funcionar, por favor tente mais tarde ou contacte com o Desenvolvimento do BrandMeister se continuar esta falha.",
             "503": "A API do BrandMeister actualmente não está disponivel, por favor tente mais tarde ou contacte con o Desenvolvimento do BrandMeister se continuar esta falha.",
             "504": "A solicitação da API do BrandMeister expirou. Por favor tente mais tarde ou contacte o Desenvolvimento do BrandMeister se continuar esta falha."
@@ -94,7 +94,7 @@
     },
   "footer": {
       "codedWithLoveByThe": "%s con %s de",
-      "like": "¡Dar um \"Gosto\" no Facebook!",
+      "like": "Curta no Facebook!",
       "donate": "Doar para um %s ou para um %s",
       "legal": "Informação Legal",
       "version": "Versão"
@@ -112,7 +112,7 @@
       "tx": "TX",
       "rx": "RX",
       "colorCode": "CC",
-      "status": "Estado",
+      "status": "Status",
       "master": "Master"
     },
   "legal": {
@@ -132,8 +132,8 @@
       "sourceCall": "Indicativo de origem",
       "destination": "Destino",
       "destinationID": "ID de destino",
-      "reflector": "Reflector",
-      "options": "Opcções",
+      "reflector": "Refletor",
+      "options": "Opções",
       "RSSI": "RSSI",
       "duration": "Duração",
       "lossRate": "Relação de Perda",
@@ -149,12 +149,12 @@
     },
   "login": {
       "login": "Login",
-      "logout": "Encerrar a sessão",
-      "empty": "¡Por favor, introduz o utilizador e a password!",
-      "reauth": "¡A tua sessão expirou, por favor volta a inicia-la para continuar!",
-      "failed": "¡Falhou! Utilizador ou password errados!",
-      "deactivated": "¡A tua conta foi desactivada! Por favor, poe-te em contacto com o gestor de teu Servidor Principal!",
-      "lookup": "¡Existe um erro na obtenção de dados do teu perfil",
+      "logout": "Encerrar sessão",
+      "empty": "Por favor, insira seu usuário e senha válido!",
+      "reauth": "Sessão expirada, por favor faça login novamente para continuar!",
+      "failed": "Falha! Erro no usuário ou senha!",
+      "deactivated": "Conta desativada! Por favor, entre em contato com o administrador do seu servidor!",
+      "lookup": "Erro na obtenção de dados do seu perfil",
       "selfcareCredentials": "Login com os dados do SelfCare"
     },
   "map": {
@@ -170,8 +170,8 @@
       "list": "Listar"
     },
   "menu": {
-      "userDashboard": "Painel de Utilizador",
-      "lastHeard": "Actividade Recente",
+      "userDashboard": "Painel de Usuário",
+      "lastHeard": "Actividades Recentes",
       "repeaters": "Repetidores",
       "hotspots": "Hotspots",
       "masters": "Masters",
@@ -188,35 +188,35 @@
       "wiki": "BM Wiki",
       "selfCare": "SelfCare",
       "helpdesk": "Ajuda",
-      "sysopMenu": "Menú do Sysop",
+      "sysopMenu": "Menu do Sysop",
       "sysopDashboard": "Painel do Sysop",
       "myRepeaters": "Os meus Repetidores",
-      "masterMenu": "Menú do Master",
+      "masterMenu": "Menu do Master",
       "masterDashboard": "Painel do Master",
       "systemInfo": "Informação sobre o Sistema",
       "systemSettings": "Configuração do Sistema",
       "sysopManagement": "Gestão do Sysop",
       "repeaterManagement": "Gestão do Repetidor",
       "talkgroupManagement": "Gestão do TG",
-      "coreMenu": "Menú do Núcleo do BM",
+      "coreMenu": "Menu do Núcleo do BM",
       "coreDashboard": "Painel do Núcleo",
-      "masterManagement": "Gestão do Master Server",
-      "userManagement": "Gestão do Utilizador",
-      "newsManagement": "Gestão de Notícias"
+      "masterManagement": "Gerenciamento do Master Server",
+      "userManagement": "Gerenciamento de usuário",
+      "newsManagement": "Gerenciamento de Notícias"
     },
   "monitoring": {
-      "error": "¡Erro!",
+      "error": "Erro!",
       "master": "Master",
-      "notResponding": "não responde"
+      "notResponding": "Sem resposta"
     },
   "news": {
       "latestNews": "Últimas Noticias sobre BrandMeister",
       "publishedBy": "Publicado por",
-      "like": "Gosto",
-      "shareFacebook": "Partilhar no Facebook",
-      "shareTwitter": "Partilhar no Twitter",
-      "readMore": "¡Ler mais!",
-      "loadMore": "descarregar mais",
+      "like": "Like",
+      "shareFacebook": "Compartilhar no Facebook",
+      "shareTwitter": "Compartilhar no Twitter",
+      "readMore": "Ler mais!",
+      "loadMore": "Carregar mais",
       "seeAllPosts": "Ver todas as publicações"
     },
   "profile": {
@@ -235,22 +235,22 @@
       "seenNever": "Nunca"
     },
   "register": {
-      "notAMember": "¿Não és membro?",
-      "alreadyAMember": "¿Tens uma conta no SelfCare %s?",
+      "notAMember": "Não é membro?",
+      "alreadyAMember": "Tem uma conta no SelfCare %s?",
       "register": "Registrar",
       "registration": "Registro",
       "generalAccountDetails": "Detalhes da Conta Geral",
       "callsign": "Indicativo",
       "firstname": "Nome",
-      "email": "Correio electrónico",
+      "email": "email",
       "security": "Segurança",
-      "password": "Password",
-      "confirmPassword": "Confirmar a Password",
+      "password": "Senha",
+      "confirmPassword": "Confirmar a senha",
       "antiSpam": "AntiSpam",
-      "uhfInCm": "¿Qual é o comprimento de onda da banda de UHF em centímetros?",
-      "uhfInCmInfo": "Responde com um número",
+      "uhfInCm": "Qual é o comprimento de onda da banda de UHF em centímetros?",
+      "uhfInCmInfo": "Responda com um número",
       "dmrId": "DMR ID",
-      "dmrIdInfo": "Indica um dos teus DMR-ID para validar a tua conta"
+      "dmrIdInfo": "Indica um dos teus DMR-ID para validar sua tua conta"
     },
   "repeaters": {
       "repeaters": "Repetidores",
@@ -277,39 +277,39 @@
       "firewallLow": "Permite",
       "firewallMedium": "Médio",
       "firewallHigh": "Alto",
-      "saveChangesToId": "Guardar alterações paar o ID",
-      "restoreDefaults": "Restaurar dados por defeito",
+      "saveChangesToId": "Salvar alterações para o ID",
+      "restoreDefaults": "Restaurar padrões",
       "restoreSettingsFor": "Restaurar a configuração do SelfCare",
       "restoreAlert": "Clique em restaurar, toda a configuração do SelfCare será restaurada por defeito para o DMR-ID",
-      "confirm": "¿Confirma que quer restaurar l configuração para este ID?",
+      "confirm": "Confirma que quer restaurar configuração para este ID?",
       "restore": "Restaurar",
       "cancel": "Cancelar"
     },
   "settings": {
       "general": "Geral",
-      "generalSettings": "Configuração Geral",
+      "generalSettings": "Configurações Gerais",
       "page": "Página",
       "pageSettings": "Configuração da Página",
       "displayAlerts": "Mostrar alertas",
       "displayAlertsInfo": "Mostrar alertas quando o servidor cair",
       "apiTimeout": "API fora de tempo",
-      "apiTimeoutInfo": "Refrescar a taxa de dados",
+      "apiTimeoutInfo": "API Timeout",
       "displayDatetime": "Mostra Hora",
-      "displayDatetimeInfo": "Mostrar hora de actividade recente"
+      "displayDatetimeInfo": "Mostrar hora de atividades recentes"
     },
   "xtg": {
-      "extendedRouting": "Routeamento Extendido",
-      "extendedRoutingForDv4mini": "Routeamento Extendido para DV4mini",
+      "extendedRouting": "Roteamento Extendido",
+      "extendedRoutingForDv4mini": "Roteamento Extendido para DV4mini",
       "userID": "ID do utilizador",
-      "chooseDongle": "Selecciona o dispositivo",
+      "chooseDongle": "Seleciona o dispositivo",
       "mappedGroup": "Mapeamento de um TG",
-      "mappedGroupSelect": "Seleccione da lista",
+      "mappedGroupSelect": "Selecione da lista",
       "talkgroup": "Grupo de chamada",
-      "save": "Guardar configuração",
-      "help": "Para ajuda por favor ve no wiki",
-      "notResponding": "no está respondendo",
+      "save": "Salvar configurações",
+      "help": "Ajuda",
+      "notResponding": "sem resposta",
       "master": "Master",
-      "error": "¡Erro!",
+      "error": "Erro!",
       "missingDongle": "Erro: dispositivo desconhecido",
       "errorReflector": "Erro: Não se pode conectar a um reflector, por favor, seleccione um grupo de chamada (TG)"
     }
